@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/category"  android:checkable="true"
+        android:textSize="14dp"
+        android:textStyle="bold"
+
+        >
+
+        <menu >
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/movie_action"
+                    android:title="@string/action"
+
+                    />
+
+
+                <item android:id="@+id/movie_scifi"
+                    android:title="@string/sci_fi"
+
+                    />
+
+                <item android:id="@+id/movie_comedy"
+                    android:title="@string/comedy"
+
+                    />
+
+                <item android:id="@+id/movie_Thriller"
+                    android:title="@string/thriller"
+
+                    />
+
+                <item android:id="@+id/movie_Fantasy"
+                    android:title="@string/fantasy"
+
+                    />
+
+                <item android:id="@+id/movie_war"
+                    android:title="@string/war"
+
+                    />
+            </group>
+
+        </menu>
+
+
+
+    </item>
+
+
+
+
+</menu>

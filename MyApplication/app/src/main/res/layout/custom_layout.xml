@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/select_row"
+    android:padding="8dp" >
+
+    <!--  Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image_selected"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/image_selected"
+        android:layout_toEndOf="@+id/image_selected"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/ID"
+        android:layout_below="@+id/title"
+        android:layout_toRightOf="@+id/image_selected"
+        android:layout_toEndOf="@+id/image_selected"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/releaseYear"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Rating :"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/ID"
+        android:layout_toRightOf="@+id/image_selected"
+        android:layout_toEndOf="@+id/image_selected"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/genre"
+        android:layout_below="@+id/textView16"
+        android:layout_toRightOf="@+id/image_selected"
+        android:layout_toEndOf="@+id/image_selected"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="2dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        style="@android:style/Widget.DeviceDefault.RatingBar.Small"
+        android:layout_above="@+id/genre"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:numStars="10" />
+
+    <!--  Title -->
+
+    <!-- Rating -->
+
+    <!--&lt;!&ndash; Genre &ndash;&gt;-->
+
+    <!--  Year -->
+
+</RelativeLayout>

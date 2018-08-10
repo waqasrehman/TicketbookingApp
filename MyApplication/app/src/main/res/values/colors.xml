@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="colorPrimary">#d63f28</color>
+<color name="colorPrimaryDark">#d63f28</color>
+<color name="colorAccent">#e2b1bd</color>
+<color name="custom">#c3d1ae</color>
+<color name="selected_button">#c6eaa2</color>
+<color name="rounded_button">#f2caca</color>
+    <color name="detailbg">#ebffffff</color>
+    <color name="selected_list">#e98585</color>
+
+
+
+    <!--  colors for list view-->
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="start_color">#f7f5f5</color>
+    <color name="end_color">#f7f5f5</color>
+    <color name="hover_start_color">#d7e5ef</color>
+    <color name="hover_end_color">#d7e5ef</color>
+
+</resources>

@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.waqasur_rehman.myapplication.Feedback">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+       >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="FeedBack"
+            android:gravity="top|center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="false" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:fillViewport="false"
+            android:id="@+id/scrollView2"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="true">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/feedback_text"
+                android:hint="Feedback..." />
+        </ScrollView>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:id="@+id/submit_feedback"
+            android:background="@drawable/round_button"
+            android:onClick="startProcess"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

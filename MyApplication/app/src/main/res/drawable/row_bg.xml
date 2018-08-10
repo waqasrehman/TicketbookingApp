@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@color/start_color"
+        android:endColor="@color/end_color"
+        android:angle="270" />
+
+    <!-- set start color to the specified start color in colors.xml for listview and set end color to
+
+    specified end color
+    -->
+</shape>
